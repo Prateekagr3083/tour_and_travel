@@ -74,23 +74,7 @@
                 <input required="" placeholder="" type="password" class="input">
                 <span>Confirm Password</span>
             </label>
-            <div class="gender-selection">
-                <span class="gender-title">Gender</span>
-                <label>
-                    <input type="radio" name="gender" value="male" required=""> Male
-                </label>
-                <label>
-                    <input type="radio" name="gender" value="female"> Female
-                </label>
-                <label>
-                    <input type="radio" name="gender" value="other"> Others
-                </label>
-            </div>
-            <div class="terms-conditions">
-                <label>
-                    <input type="checkbox" name="terms" required=""> I accept the <a href="#">Terms & Conditions</a>
-                </label>
-            </div>
+            <!-- Gender and Terms & Conditions sections removed -->
             <button class="submit">Register</button>
             <p class="signin">Already have an account? <a href="Login.php">Login</a></p>
         </form>
