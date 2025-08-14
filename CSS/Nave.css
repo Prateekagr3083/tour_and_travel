@@ -24,6 +24,7 @@
     font-family: 'YourFontFamily', serif; /* Replace with the desired font family */
     font-size: 1.5rem; /* Adjust size if necessary */
     font-weight: bold; /* Adjust weight if necessary */
+    text-decoration: none; /* Ensure no underline */
 }
 
 .nav-menu {
