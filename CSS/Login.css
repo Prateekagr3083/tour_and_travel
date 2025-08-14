@@ -138,6 +138,11 @@ main {
   color: green;
 }
 
+/* Specific adjustment for email input */
+input[type="email"] {
+  padding: 15px 10px 5px 10px; /* Ensure padding is consistent */
+}
+
 .submit {
   border: none;
   outline: none;
