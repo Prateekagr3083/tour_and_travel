@@ -11,7 +11,7 @@
     <?php include 'Navbar/Nave.php'; ?>
     
     <main>
-        <form class="form">
+        <form class="form" onsubmit="return validatePasswords()">
             <p class="title">Register</p>
             
             <label>
@@ -39,11 +39,11 @@
                 <span>Email</span>
             </label>
             <label>
-                <input required="" placeholder=" " type="password" class="input">
+                <input required="" placeholder=" " type="password" class="input" id="password">
                 <span>Password</span>
             </label>
             <label>
-                <input required="" placeholder=" " type="password" class="input">
+                <input required="" placeholder=" " type="password" class="input" id="confirmPassword">
                 <span>Confirm Password</span>
             </label>
             <div class="gender-selection">
@@ -67,5 +67,16 @@
             <p class="signin">Already have an account? <a href="Login.php">Login</a></p>
         </form>
     </main>
+    <script>
+        function validatePasswords() {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            if (password !== confirmPassword) {
+                alert("Passwords do not match!");
+                return false; // Prevent form submission
+            }
+            return true; // Allow form submission
+        }
+    </script>
 </body>
 </html>
