@@ -23,7 +23,7 @@
                 <span>Lastname</span>
             </label>
             <label>
-                <input required="" placeholder="" type="text" class="input">
+                <input required="" placeholder="" type="tel" class="input" pattern="[0-9]*">
                 <span>Phone Number</span>
             </label>
             <label>
