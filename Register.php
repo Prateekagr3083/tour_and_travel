@@ -22,15 +22,6 @@
                 <input required="" placeholder="" type="text" class="input">
                 <span>Lastname</span>
             </label>
-            <div class="gender-selection">
-                <span class="gender-title">Gender</span>
-                <label>
-                    <input type="radio" name="gender" value="male" required> Male
-                </label>
-                <label>
-                    <input type="radio" name="gender" value="female"> Female
-                </label>
-            </div>
             <label>
                 <input required="" placeholder="" type="email" class="input">
                 <span>Email</span>
@@ -43,6 +34,18 @@
                 <input required="" placeholder="" type="password" class="input">
                 <span>Confirm Password</span>
             </label>
+            <div class="gender-selection">
+                <span class="gender-title">Gender</span>
+                <label>
+                    <input type="radio" name="gender" value="male" required=""> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other"> Others
+                </label>
+            </div>
             <button class="submit">Register</button>
             <p class="signin">Alredy have an account? <a href="Login.php">Login</a></p>
         </form>
