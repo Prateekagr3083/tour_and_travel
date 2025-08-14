@@ -28,6 +28,23 @@
             margin-right: 5px;
             vertical-align: middle;
         }
+        .terms-conditions {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .terms-conditions label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .terms-conditions input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        .terms-conditions a {
+            color: royalblue;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -69,8 +86,13 @@
                     <input type="radio" name="gender" value="other"> Others
                 </label>
             </div>
+            <div class="terms-conditions">
+                <label>
+                    <input type="checkbox" name="terms" required=""> I accept the <a href="#">Terms & Conditions</a>
+                </label>
+            </div>
             <button class="submit">Register</button>
-            <p class="signin">Alredy have an account? <a href="Login.php">Login</a></p>
+            <p class="signin">Already have an account? <a href="Login.php">Login</a></p>
         </form>
     </main>
 </body>
