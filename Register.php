@@ -22,7 +22,10 @@
                 <input required="" placeholder="" type="text" class="input">
                 <span>Lastname</span>
             </label>
-            <!-- Contact Number input removed -->
+            <label>
+                <input required="" placeholder="" type="email" class="input">
+                <span>Contact Number</span>
+            </label>
             <label>
                 <input required="" placeholder="" type="email" class="input">
                 <span>Email</span>
