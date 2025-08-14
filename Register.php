@@ -22,6 +22,15 @@
                 <input required="" placeholder="" type="text" class="input">
                 <span>Lastname</span>
             </label>
+            <div class="gender-selection">
+                <span class="gender-title">Gender</span>
+                <label>
+                    <input type="radio" name="gender" value="male" required> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+            </div>
             <label>
                 <input required="" placeholder="" type="email" class="input">
                 <span>Email</span>
