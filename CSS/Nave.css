@@ -55,13 +55,13 @@
     width: 10em;
     border-radius: 1rem;
     color: rgb(22, 19, 19);
-    box-shadow: 0 0.4rem #dfd9d9;
+    box-shadow: 0 0.4rem #004d00;
     cursor: pointer;
 }
 
 .login-btn:active {
     color: white;
-    box-shadow: 0 0.2rem #dfd9d9;
+    box-shadow: 0 0.2rem #004d00;
     transform: translateY(0.2rem);
 }
 
