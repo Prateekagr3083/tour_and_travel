@@ -62,7 +62,7 @@
 }
 
 .login-btn:hover {
-    background-color: #ff8533;
+    background-color: #aa33ff;
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
