@@ -43,7 +43,7 @@
                 <span>Password</span>
             </label>
             <label>
-                <input required="" placeholder=" " type="password" class="input" id="confirmPassword">
+                <input required="" placeholder=" " type="text" class="input" id="confirmPassword">
                 <span>Confirm Password</span>
             </label>
             <div class="gender-selection">
