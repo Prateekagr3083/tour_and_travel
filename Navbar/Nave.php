@@ -8,7 +8,7 @@
                 <a href="Home.php" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="Login.php" class="nav-link login-btn">Login</a>
+                <a href="Login.php" class="nav-link custom-btn btn-1">Login</a>
             </li>
         </ul>
     </div>
