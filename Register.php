@@ -22,7 +22,8 @@
                 <input required="" placeholder="" type="text" class="input">
                 <span>Lastname</span>
             </label>
-            <!-- Contact Number input removed -->
+            <label for="contact-number">Contact Number:</label>
+            <input type="tel" id="contact-number" name="Contact number" placeholder="Contact Number" required pattern="[0-9]*" inputmode="numeric" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
             <label>
                 <input required="" placeholder="" type="email" class="input">
                 <span>Email</span>
