@@ -179,9 +179,9 @@ input[type="email"] {
 }
 
 .gender-selection {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: flex; /* Change to flex for horizontal layout */
+  flex-direction: row; /* Align items horizontally */
+  gap: 10px; /* Add spacing between options */
   margin: 15px 0;
 }
 
@@ -189,7 +189,7 @@ input[type="email"] {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0; /* Remove bottom margin for horizontal layout */
 }
 
 .terms-conditions {
