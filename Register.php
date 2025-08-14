@@ -23,7 +23,7 @@
                 <span>Lastname</span>
             </label>
             <label>
-                <input required="" placeholder="" type="email" class="input">
+                <input required="" placeholder="" type="tel" class="input">
                 <span>Contact Number</span>
             </label>
             <label>
