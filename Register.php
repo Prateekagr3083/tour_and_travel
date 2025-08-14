@@ -23,8 +23,16 @@
                 <span>Lastname</span>
             </label>
             <label>
-                <input required="" placeholder="" type="tel" class="input">
-                <span>Contact Number</span>
+              <input 
+                type="tel" 
+                class="input" 
+                required 
+                placeholder=" " 
+                pattern="[0-9]*" 
+                inputmode="numeric" 
+                oninput="this.value=this.value.replace(/[^0-9]/g,'')"
+              >
+              <span>Contact Number</span>
             </label>
             <label>
                 <input required="" placeholder="" type="email" class="input">
